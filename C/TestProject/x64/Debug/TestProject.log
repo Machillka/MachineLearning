@@ -1,0 +1,17 @@
+﻿  Cell.cpp
+  Main.cpp
+  MVector.cpp
+D:\AI\C\TestProject\MVector.h(18,9): error C2143: syntax error: missing ';' before '<'
+D:\AI\C\TestProject\MVector.h(22,2): message : see reference to class template instantiation 'MVector<T>' being compiled
+D:\AI\C\TestProject\MVector.h(18,1): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+D:\AI\C\TestProject\MVector.h(18,35): error C2238: unexpected token(s) preceding ';'
+D:\AI\C\TestProject\MVector.cpp(2,11): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+D:\AI\C\TestProject\MVector.cpp(4,6): error C2923: 'MVector': 'T' is not a valid template type argument for parameter 'T'
+D:\AI\C\TestProject\MVector.cpp(2,10): message : see declaration of 'T'
+D:\AI\C\TestProject\MVector.cpp(4,18): error C2955: 'MVector': use of class template requires template argument list
+D:\AI\C\TestProject\MVector.h(14,1): message : see declaration of 'MVector'
+D:\AI\C\TestProject\MVector.cpp(4,28): error C2761: 'void MVector<T>::AddItem(T)': redeclaration of member is not allowed
+D:\AI\C\TestProject\MVector.cpp(4,28): error C2146: syntax error: missing ')' before identifier 'value'
+D:\AI\C\TestProject\MVector.cpp(5,1): error C2143: syntax error: missing ';' before '{'
+D:\AI\C\TestProject\MVector.cpp(5,1): error C2447: '{': missing function header (old-style formal list?)
+  Generating Code...
